@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Jajanan extends Controller
+class JajananController extends Controller
 {
     //
 }
