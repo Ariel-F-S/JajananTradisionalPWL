@@ -16,7 +16,7 @@ class Jajanan extends Model
                 'harga' => 2000,
                 'bahan' => 'Tepung ketan, gula merah, kelapa',
                 'deskripsi' => 'Kue tradisional berbentuk bulat berwarna hijau dengan isian gula merah dan baluran kelapa parut.',
-                'gambar' => 'https://placehold.co/600x400/F0E6D2/654321?text=Klepon'
+                'gambar' => 'https://tse2.mm.bing.net/th/id/OIP.TSf2T1yJ0OvFXt1x7DtwLgHaE7?r=0&pid=Api&h=220&P=0'
             ],
             [
                 'id' => 2,
@@ -34,7 +34,7 @@ class Jajanan extends Model
                 'harga' => 3000,
                 'bahan' => 'Singkong, gula, kelapa',
                 'deskripsi' => 'Jajanan tradisional berbahan singkong yang memiliki tekstur lembut dan rasa manis.',
-                'gambar' => 'https://placehold.co/600x400/F0E6D2/654321?text=Getuk'
+                'gambar' => 'https://tse3.mm.bing.net/th/id/OIP.LUW4eif-E3b5V15Vl4rKzQHaEj?r=0&pid=Api&h=220&P=0'
             ],
             [
                 'id' => 4,
@@ -43,7 +43,7 @@ class Jajanan extends Model
                 'harga' => 3000,
                 'bahan' => 'Ketan, santan, ayam',
                 'deskripsi' => 'Ketan gurih berisi ayam suwir yang biasanya dibungkus menggunakan daun pisang.',
-                'gambar' => 'https://placehold.co/600x400/F0E6D2/654321?text=Lemper'
+                'gambar' => 'https://tse4.mm.bing.net/th/id/OIP.H9PvqtQdcu4ylSab2BdNOwHaFj?r=0&pid=Api&h=220&P=0'
             ],
             [
                 'id' => 5,
@@ -52,7 +52,7 @@ class Jajanan extends Model
                 'harga' => 2000,
                 'bahan' => 'Tepung beras, santan, gula',
                 'deskripsi' => 'Kue berlapis dengan warna menarik, tekstur kenyal, dan rasa manis.',
-                'gambar' => 'https://placehold.co/600x400/F0E6D2/654321?text=Kue+Lapis'
+                'gambar' => 'https://tse2.mm.bing.net/th/id/OIP.N5iGnEs18gxp_UKf56s-3AHaFS?r=0&pid=Api&h=220&P=0'
             ],
             [
                 'id' => 6,
@@ -61,7 +61,7 @@ class Jajanan extends Model
                 'harga' => 2000,
                 'bahan' => 'Tepung tapioka, kelapa, gula',
                 'deskripsi' => 'Jajanan kenyal berwarna-warni yang disajikan dengan kelapa parut dan gula.',
-                'gambar' => 'https://placehold.co/600x400/F0E6D2/654321?text=Cenil'
+                'gambar' => 'https://tse3.mm.bing.net/th/id/OIP.dAehJS_XZT83waFXhgBsKQHaE7?r=0&pid=Api&h=220&P=0'
             ],
         ];
     }
