@@ -9,12 +9,15 @@ Route::get('/home', function () {
 
 use App\Http\Controllers\JajananController;
 
-Route::get('/', [JajananController::class, 'home'])
+Route::get('/home', [JajananController::class, 'home'])
     ->name('home');
 
-Route::get('/jajanan', [JajananController::class, 'index'])
+Route::get('/katalog', [JajananController::class, 'index'])
     ->name('jajanan.index');
 
 Route::get('/jajanan/{id}', [JajananController::class, 'show'])
     ->whereNumber('id')
     ->name('jajanan.show');
+
+Route::get('/kontak', [JajananController::class, 'kontak'])
+    ->name('kontak');    
