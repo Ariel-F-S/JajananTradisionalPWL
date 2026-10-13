@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JajananController;
 
+Route::get('/', [JajananController::class, 'home'])
+    ->name('home');
+
 Route::get('/home', [JajananController::class, 'home'])
     ->name('home');
 
