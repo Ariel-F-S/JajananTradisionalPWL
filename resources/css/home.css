@@ -1,0 +1,251 @@
+.hero {
+    min-height: 88vh;
+    background: #f7efe3;
+    display: flex;
+    align-items: center;
+    padding: 70px 8%;
+    overflow: hidden;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-label {
+    display: inline-block;
+    background: #a63d2f;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(50px, 6vw, 88px);
+    line-height: .95;
+    margin: 0 0 25px;
+    color: #321b12;
+    font-weight: 900;
+    letter-spacing: -4px;
+}
+
+.hero h1 span {
+    color: #a63d2f;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #65483c;
+    margin-bottom: 35px;
+    max-width: 520px;
+}
+
+.hero-button {
+    display: inline-block;
+    background: #321b12;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.hero-button:hover {
+    background: #a63d2f;
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    border-radius: 45% 45% 8px 8px;
+    display: block;
+}
+
+.hero-badge {
+    position: absolute;
+    bottom: 25px;
+    left: -30px;
+    background: #d99a3d;
+    color: #321b12;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    transform: rotate(-10deg);
+}
+
+.intro {
+    padding: 110px 8%;
+    text-align: center;
+    background: #fffaf4;
+}
+
+.intro h2 {
+    font-size: 50px;
+    color: #321b12;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    max-width: 700px;
+    margin: auto;
+    color: #70594e;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.featured {
+    background: #321b12;
+    padding: 100px 8%;
+    color: white;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+.featured h2 {
+    font-size: 52px;
+    margin: 0;
+}
+
+.featured-link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.snack-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.snack-card {
+    background: #fffaf4;
+    color: #321b12;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.snack-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.snack-card-content {
+    padding: 25px;
+}
+
+.snack-card h3 {
+    font-size: 25px;
+    margin: 0 0 8px;
+}
+
+.snack-card p {
+    color: #765f54;
+    margin: 0;
+}
+
+.cta {
+    padding: 110px 8%;
+    text-align: center;
+    background: #d99a3d;
+    color: #321b12;
+}
+
+.cta h2 {
+    font-size: 55px;
+    max-width: 800px;
+    margin: 0 auto 25px;
+    line-height: 1;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #321b12;
+    color: white;
+    padding: 16px 35px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 60px 6%;
+    }
+
+    .hero-image img {
+        height: 450px;
+    }
+
+    .hero-badge {
+        left: 10px;
+    }
+
+    .snack-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-header {
+        display: block;
+    }
+
+    .featured-link {
+        display: inline-block;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 52px;
+    }
+
+    .intro h2,
+    .featured h2,
+    .cta h2 {
+        font-size: 40px;
+    }
+}
