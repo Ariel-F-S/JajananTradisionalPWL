@@ -23,6 +23,7 @@
                                 <p class="mb-1"><strong>Nama:</strong> Ariel Ferdiansyah Susanto</p>
                                 <p class="mb-1"><strong>Kelas:</strong> 2D</p>
                                 <p class="mb-1"><strong>NIM:</strong> 253107030055</p>
+                                <p class="mb-1"><strong>Nomor Telepon :</strong> <a href="https://wa.me/6285707353189" target="_blank">085707353189</a></p>
                             </div>
                         </div>
                     </div>
@@ -37,6 +38,7 @@
                                 <p class="mb-1"><strong>Nama:</strong> Veerky Tandio</p>
                                 <p class="mb-1"><strong>Kelas:</strong> 2D</p>
                                 <p class="mb-1"><strong>NIM:</strong> 253107030015</p>
+                                <p class="mb-1"><strong>Nomor Telepon :</strong> <a href="https://wa.me/6285736423261" target="_blank">085736423261</a></p>
                             </div>
                         </div>
                     </div>
