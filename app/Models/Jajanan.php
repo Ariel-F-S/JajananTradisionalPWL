@@ -63,6 +63,35 @@ class Jajanan extends Model
                 'deskripsi' => 'Jajanan kenyal berwarna-warni yang disajikan dengan kelapa parut dan gula.',
                 'gambar' => 'https://tse3.mm.bing.net/th/id/OIP.dAehJS_XZT83waFXhgBsKQHaE7?r=0&pid=Api&h=220&P=0'
             ],
+
+            [
+                'id' => 7,
+                'nama' => 'Kue Cubit',
+                'asal' => 'Jakarta',
+                'harga' => 3000,
+                'bahan' => 'Tepung terigu, telur, gula, susu',
+                'deskripsi' => 'Kue mini berbentuk bulat yang biasanya disajikan dengan topping cokelat atau keju.',
+                'gambar' => 'https://awsimages.detik.net.id/community/media/visual/2022/06/20/resep-kue-cubit-1_43.jpeg?w=1200'
+            ],
+            [
+                'id' => 8,
+                'nama' => 'Bika Ambon',
+                'asal' => 'Medan',
+                'harga' => 50000,
+                'bahan' => 'Tepung sagu, telur, santan, gula',
+                'deskripsi' => 'Kue tradisional dari Medan yang memiliki tekstur lembut dan rasa manis.',
+                'gambar' => 'https://blog.tokowahab.com/wp-content/uploads/2019/11/Resep-dan-Tips-Kue-Bika-Ambon.jpg'
+            ],
+
+            [
+                'id' => 9,
+                'nama' => 'Rangin',
+                'asal' => 'Betawi',
+                'harga' => 5000,
+                'bahan' => 'Tepung ketan, gula merah, kelapa',
+                'deskripsi' => 'Jajanan tradisional Betawi berbentuk bulat dengan isian gula merah dan baluran kelapa parut.',
+                'gambar' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxny7a3fy46GXGP6wHMRV5iMkAg6k8UQ0YHezgo9rdpV6sYyTmabLUlVsfr1MECMn-xSY64PFiTk8xUMZ3TMi4fkzh4ok2OUgxipI7Eg&s=10'
+            ]
         ];
     }
 
