@@ -25,7 +25,7 @@ class Jajanan extends Model
                 'harga' => 2500,
                 'bahan' => 'Tepung ketan, kacang hijau, wijen',
                 'deskripsi' => 'Jajanan berbentuk bulat dengan taburan wijen dan isian kacang hijau yang manis.',
-                'gambar' => 'https://placehold.co/600x400/F0E6D2/654321?text=Onde-onde'
+                'gambar' => 'https://assets.unileversolutions.com/recipes-v2/258105.jpg'
             ],
             [
                 'id' => 3,

@@ -19,28 +19,11 @@
     </style>
 </head>
 <body>
+    @include('layouts.navbar')
 
-<nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="{{ route('home') }}">
-            🍡 JajanNusantara
-        </a>
-        <button class="navbar-toggler bg-light" type="button"
-            data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menu">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="{{ route('home') }}">Beranda</a>
-                <a class="nav-link" href="{{ route('jajanan.index') }}">Katalog</a>
-            </div>
-        </div>
-    </div>
-</nav>
-
-<main class="container py-4">
-    @yield('content')
-</main>
+    <main class="container py-4">
+        @yield('content')
+    </main>
 
 <footer class="text-center py-3 mt-4">
     <small>© 2026 JajanNusantara | Mengenal Jajanan Tradisional Indonesia</small>
